@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+
+.footer__contacts {
+  margin: 15px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer__contact {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.footer__contact:hover {
+  opacity: 0.5;
+}
+
+.footer__contact_logo {
+  height: 60px;
+}

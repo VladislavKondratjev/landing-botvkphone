@@ -1,0 +1,35 @@
+.presentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 400px;
+  padding-top: 50px;
+  width: 100%;
+  height: 555px;
+  background-image: url("../../images/presenatation__background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.presentation__article {
+  color: white;
+  width: 320px;
+}
+
+.presentation__title + presentation__subtitle {
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .presentation {
+    flex-direction: column;
+    align-items: center;
+  }
+  .presentation__article {
+    background-color: rgba(0, 0, 0, 0.685);
+    border-radius: 10px;
+    padding: 10px;
+    width: 280px;
+  }
+}
